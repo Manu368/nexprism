@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+/* HeaderSection CSS Start*/
+
+
+.icon01 {
+    font-size: 20px !important;
+    text-align: center;
+}
+.icon02 {
+    font-size: 18px !important;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.top-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.bg-container01 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 99.99%, rgba(255, 255, 255, 0.2) 100%), url("https://res.cloudinary.com/dqrttxm5s/image/upload/v1685813105/01_image01_nlomk1.png");
+    height:100vh;
+    background-size: cover;
+}
+.manu-color{
+    color:rgba(255, 255, 255, 0.75);
+}
+.heading01 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+}
+.heading02 {
+    color: #6E6E6E;
+    font-weight: 600;
+    font-size: 45px;
+}
+#home {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#about {
+    color:rgba(255, 255, 255, 0.75);
+    font-size: 17px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#game {
+    color:rgba(255, 255, 255, 0.75);
+    font-size: 17px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.button01 {
+    background-color: #0C132C;
+    width: 120px;
+    height: 54px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 30px;
+    border: 0px;
+}
+.button01:hover {
+    background-color: rgb(68, 34, 202);
+}
+.manohar {
+    border-bottom: 1px solid #fff;
+}
+.manu-container{
+    position: absolute;
+    top: 35%;
+}
+.heading03{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.heading04 {
+    color: #9D9D9D;
+    font-size: 60px;
+    font-weight: 600;
+}
+.para01 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+.button02 {
+    background-color: #9D9D9D;
+    width: 165px;
+    height: 54px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0px;
+}
+.button02:hover {
+    background-color: #b59438;
+}
+.button03 {
+    background-color: #0C132C;
+    width: 165px;
+    height: 54px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0px;
+    color: #fff;
+}
+.button03:hover {
+    background-color: #18bfe0;
+}
+
+/* HeaderSection CSS Ending*/
+
+
+/*Section01 CSS Starting*/
+.bg-container02 {
+    background-color: #0C132C;
+    background-size: cover;
+}
+.number01{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.desc {
+    color: #dcdee0;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/*Section01 CSS Ending*/
+
+
+
+/*Section02 CSS Started*/
+.bg-container03 {
+    background-color: #313232;
+    background-size: cover;
+}
+.heading05 {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.heading06 {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+}
+@media screen and (min-width:768px){
+    .heading07 {
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    .arrow01 {
+        margin-top: 72px;
+         color: #fff;
+    }
+}
+@media screen and (max-width:767px){
+    .heading07 {
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 16px;
+
+    }
+    .arrow01 {
+         color: #fff;
+         margin-top: 2px;
+    }
+}
+.carousel-control-prev,
+.carousel-control-next
+ {
+    width: 50px;
+    height: 50px;
+    margin: -30px;
+}
+.card-title {
+    color: #2D2D2D !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+.card-text {
+    color: #6E6E6E !important;
+}
+/*Section02 CSS Ended*/
+
+
+
+/*Section03 CSS Started*/
+.bg-container04 {
+    background-color: #010A29;
+    background-size: cover;
+}
+@media screen and (min-width:768px){
+    .heading08 {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 16px;
+        margin-top: 70px;
+        font-weight: 100;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .heading08 {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 16px;
+
+    }
+
+}
+.owl-theme .owl-nav {
+    
+    display: none;
+}
+.owl-dots {
+    display: block;
+}
+/*Section03 CSS Ended*/
+
+
+/*Section04 CSS Started*/
+.bg-container05 {
+    background-color: #000;
+    background-size: cover;
+}
+/*Section04 CSS Ended*/
+
+
+/*Section05 CSS Start*/
+.bg-container06{
+    background-color: #090A0D;
+    background-size: cover;
+}
+.heading09 {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+.heading10 {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+}
+#but01, #but02, #but03, #but04 {
+    background-color: transparent;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    border: 0px;
+    font-size: 14px;
+}
+.image01 {
+    width: 100%;
+    height: 100%;
+}
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Optional: Adjust the margin as needed */
+}
+.but01 {
+    color: #fff !important; 
+    background-color: transparent !important;
+    border: 0px !important;
+}
+/*Section05 CSS End*/
+
+/*Section06 CSS Start*/
+.bg-container07{
+    background-color: #000;
+    background-size: cover;
+}
+.button04 {
+    background-color: #2f4290;
+    width: 160px;
+    height: 55px;
+    border-radius: 30px;
+    border: 0px;
+    color: #45d992;
+    text-transform: uppercase;
+}
+.button04:hover {
+    background-color: #010A29;
+}
+.heading11 {
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.heading12 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.heading13 {
+    color:#fff;
+    font-size: 17px;
+    font-weight: 400;
+} 
+/*Section06 CSS End*/
+
+/*Section07 CSS Start*/
+.bg-container08 {
+    background-color: #353535;
+    background-size: cover;
+
+}
+.image02{
+    width: 60px;
+    height:80px;
+    border-radius: 30px;
+}
+.name {
+    color: #000;
+    font-size: 15px;
+    
+}
+.desg {
+    color: #000;
+    font-size: 15px;
+    
+}
+.card-container03 {
+    border-color: #f0ece9;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: #dadee0;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.person01{
+    width: 80px !important;
+    height: 70px !important;
+    border-radius: 40px;
+}
+.name01 {
+    color: #000;
+    font-size: 16px;
+}
+.card-manu {
+    background-color: #9D9D9D !important;
+}
+.dsg{
+    color: #000;
+    font-size: 16px;
+}
+/*Section07 CSS End*/
+
+
+/*Section08 CSS Start*/
+.bg-container09 {
+    background-color: #6E6E6E;
+    background-size: cover;
+}
+.image03{
+    width: 100%;
+    height: 80%;
+}
+.heading13 {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.heading14 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.para02 {
+    font-size: 14px;
+    color: #cfd0d1;
+    font-size: 17px;
+}
+.mark01 {
+    font-size: 22px;
+}
+.manush{
+    color: #cfd0d1;
+}
+/*Section08 CSS End*/
+
+
+/*Section09 CSS Start*/
+.bg-container10 {
+    background-color:#010A29;
+    background-size: cover;
+}
+.title-heading {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.image04 {
+    width: 100%;
+    height: 100%;
+}
+/*Section09 CSS End*/
+
+
+/*Section10 CSS Start*/
+.bg-container11 {
+    background-color: #000;
+    background-size: cover;
+}
+.information {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.para03 {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.icon002{
+    color: #fff;
+    font-size: 20px;
+}
+.icon003 {
+    color: #fff;
+    font-size: 16px;
+}
+.home{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 7px;
+}
+.home01{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 14px;
+    line-height: 23px;
+}
+.home02{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+.hor{
+    height: 0.5px;
+    background-color: #fff;
+}
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.button05 {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #18bfe0;
+    border: 0px;
+    font-size: 14px;
+}
+.button05:hover {
+    background-color: #d47c17;
+}
+.button06 {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#0C132C;
+    border: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+.button06:hover {
+    background-color: #115a62;
+}
+.button07 {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#282653;
+    border: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+.button07:hover{
+    background-color: #d14c98;
+}
+/*Section10 CSS End*/
+
+
+
+
+
